@@ -1,40 +1,37 @@
 /*whole page elements and values
-#8CC739 green	#085DAD dark blue	#21BEDE	light blue #ADB6B5 grey*/
+/*FF9933-orange	003399-dark blue	99CCCC-light blue	CCCCCC-grey*/
 body {
+  font-family: 'Ubuntu', sans-serif;
   margin: 0;
   color: #003399;
-  background-color: #99cccc;
+  background-color: #99CCCC;
 }
-@font-face {
-    font-family: "porter-sans-inline-block";
-    src: url('porter-sans-inline-block.otf');
-}
-
 /*grey bg behind links at top of page*/
 header {
-	background: #cccccc;
+	background: #CCCCCC;
 }
 /*hyperlink color at top of page*/
 a:link, a:visited {
   color:#003399;
 }
-/*hyperlink color at top of page*/
+/*hyperlink alt. color at top of page*/
 a:hover, a:active{
-  color:#ff9933;
+  color:#FF9933;
 }
-/*header elements and values*/
+/*header*/
 .nav_list {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
 }
-/*header elements and values*/
+/*header elements */
 .nav_list_item {
   margin: 1rem;
+  font-weight: bold;
 }
 /*core page elements*/
-.section {
+.sectionHero {
   margin-right: 10rem;
   margin-left: 10rem;
   text-align: right;
@@ -42,20 +39,9 @@ a:hover, a:active{
 
 .hero_text {
 	font-size: 6rem;
-	color: #fffae4;text-shadow: 0.2rem 0.2rem 0.2rem #222;
-	font-weight: normal;
+	color: #fffae4;text-shadow: 0.4rem 0.4rem 0.4rem #234;
 }
 
-#hero-text2 {
+.hero-subtext {
   font-size: 4rem;
-}
-
-.container {
-  border-right: 10rem;
-  style="overflow-x: auto;"
-}
-
-#am {
-  font-size: 1.5rem;
-  text-align: right;
 }
